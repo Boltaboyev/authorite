@@ -3050,16 +3050,8 @@ svg:hover path {
 }
 
 @media (max-width: 1190px) {
-  .max-\[1190px\]\:grid {
-    display: grid;
-  }
-
   .max-\[1190px\]\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .max-\[1190px\]\:grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -3217,10 +3209,6 @@ svg:hover path {
   .max-\[1055px\]\:text-\[40px\] {
     font-size: 40px;
   }
-
-  .max-\[1055px\]\:text-\[\] {
-    color: ;
-  }
 }
 
 @media (max-width: 1050px) {
@@ -3264,18 +3252,6 @@ svg:hover path {
 }
 
 @media (max-width: 750px) {
-  .max-\[750px\]\:w-\[\] {
-    width: ;
-  }
-
-  .max-\[750px\]\:w-\[70\$\] {
-    width: 70$;
-  }
-
-  .max-\[750px\]\:w-\[70\%\] {
-    width: 70%;
-  }
-
   .max-\[750px\]\:w-\[100\%\] {
     width: 100%;
   }
@@ -3360,18 +3336,8 @@ svg:hover path {
     flex-direction: column;
   }
 
-  .max-\[720px\]\:gap-\[20px\] {
-    gap: 20px;
-  }
-
   .max-\[720px\]\:gap-\[10px\] {
     gap: 10px;
-  }
-}
-
-@media (max-width: 655px) {
-  .max-\[655px\]\:text-\[40px\] {
-    font-size: 40px;
   }
 }
 
@@ -3396,24 +3362,24 @@ svg:hover path {
 }
 
 @media (max-width: 640px) {
-  .max-\[640px\]\:text-\[40px\] {
-    font-size: 40px;
-  }
-
   .max-\[640px\]\:text-\[30px\] {
     font-size: 30px;
-  }
-}
-
-@media (max-width: 635px) {
-  .max-\[635px\]\:text-\[40px\] {
-    font-size: 40px;
   }
 }
 
 @media (max-width: 630px) {
   .max-\[630px\]\:hidden {
     display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .max-\[580px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[580px\]\:gap-\[20px\] {
+    gap: 20px;
   }
 }
 
@@ -3455,10 +3421,6 @@ svg:hover path {
   .max-\[390px\]\:text-\[20px\] {
     font-size: 20px;
   }
-
-  .max-\[390px\]\:text-\[\] {
-    color: ;
-  }
 }
 
 @media (max-width: 380px) {
@@ -3471,12 +3433,16 @@ svg:hover path {
     padding: 0px;
   }
 
+  .max-\[380px\]\:text-\[12px\] {
+    font-size: 12px;
+  }
+
   .max-\[380px\]\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .max-\[380px\]\:text-\[12px\] {
-    font-size: 12px;
+  .max-\[380px\]\:text-\[14px\] {
+    font-size: 14px;
   }
 
   .max-\[380px\]\:text-\[\] {
@@ -3539,12 +3505,6 @@ svg:hover path {
 
   .max-\[340px\]\:gap-\[20px\] {
     gap: 20px;
-  }
-}
-
-@media (max-width: 55px) {
-  .max-\[55px\]\:text-\[40px\] {
-    font-size: 40px;
   }
 }
 
