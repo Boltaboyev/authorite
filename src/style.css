@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3a85f4;
+}
+
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .container2 {
+        width: 1350px;
+    }
+}
+
+.btn {
+    color: #3a85f4;
+    border: 1px solid #3a85f4;
+    border-radius: 30px;
+    background: #fff;
+    padding: 4px 30px;
+    transform: scale(1);
+}
+
+.btn_blue {
+    background: #3a85f4;
+    color: #fff;
+}
+
+.btn_blue:hover {
+    background: #cacaca !important;
+    border-color: #cacaca !important;
+}
+
+.btn:hover {
+    background: #3a85f4;
+    color: #fff;
+}
+
+.btn:active {
+    transition: 0s;
+    transform: scale(0.97);
+}
+
+svg:hover path {
+    fill: #3a85f4;
+}
+
+.navbar_links {
+    transition: 0.3s;
+    left: -100%;
+}
+#nav:checked + label + .navbar_links {
+    left: 0;
+}
+
+.full_label {
+    display: none;
+}
+
+#nav:checked + label {
+    display: block;
+}
+
+.showcase {
+    background: linear-gradient(110deg, #fff 0%, #cce7ff 100%);
+}
+
+.grid_item_img {
+    box-shadow: 0 8px 23px 0 rgba(44, 128, 255, 0.2);
+}
+
+.comment_grid_item {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.06);
+    background: #fefeff;
+}
+
+.radioForm {
+    box-shadow: 0 0 23px 0 rgba(43, 123, 211, 0.1);
+}
